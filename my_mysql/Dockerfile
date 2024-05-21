@@ -2,7 +2,7 @@
 FROM mysql:8.0
 
 ENV MYSQL_ROOT_PASSWORD=root
-ENV MYSQL_DATABASE=mysqldatabase
+ENV MYSQL_DATABASE=whiteboxqa
 
 # Copy the initial database dump into the container
 COPY init.sql /docker-entrypoint-initdb.d/
